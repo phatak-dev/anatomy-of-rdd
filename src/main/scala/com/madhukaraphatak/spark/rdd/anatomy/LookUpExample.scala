@@ -10,7 +10,7 @@ object LookUpExample {
 
   def main(args: Array[String]) {
 
-    val sc = new SparkContext(args(0), "custom partitioning example")
+    val sc = new SparkContext(args(0), "look up example")
 
     val salesData = sc.textFile(args(1))
 
