@@ -4,7 +4,7 @@ Follow the below steps to clone code and setup your machine.
 
 ## 1. Getting code
 
-           git clone https://github.com/phatak-dev/anatomyofrdd.git
+           git clone https://github.com/phatak-dev/anatomy-of-rdd.git
 
 
 ## 2. Build
@@ -18,7 +18,7 @@ Follow the below steps to clone code and setup your machine.
 
        mvn eclipse:eclipse
 
-  Then load the project in eclipse.
+  Then load the project to eclipse.
 
   If you are using Intellij, just load the project as maven project.
 
