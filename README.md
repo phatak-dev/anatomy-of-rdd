@@ -22,3 +22,8 @@ Follow the below steps to clone code and setup your machine.
 
   If you are using Intellij, just load the project as maven project.
 
+
+## 4. Up to date
+
+Please pull before coming to the session to get the latest code.
+
