@@ -12,12 +12,12 @@ object RunJobExample {
     val sc = new SparkContext(args(0), "run job example")
     val salesData = sc.textFile(args(1))
 
-    salesData.collect()
+    println("built in collect " +salesData.collect().toList)
     //implement collect using runJob API
 
     val results = sc.runJob(salesData, (iter: Iterator[String]) => iter.toArray)
     val collectedResult = Array.concat(results: _*).toList
-    println(collectedResult)
+    println("result of custom collect " +collectedResult)
 
 
   }
