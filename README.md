@@ -2,6 +2,12 @@ This repository contains example code and sample data for *Anatomy of RDD : A De
 Follow the below steps to clone code and setup your machine.
 
 
+## Prerequisites
+
+* Java
+* Maven 3
+* Intellij/Eclipse
+
 ## 1. Getting code
 
            git clone https://github.com/phatak-dev/anatomy-of-rdd.git
